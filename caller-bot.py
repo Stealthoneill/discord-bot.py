@@ -2,8 +2,6 @@ import discord
 
 client = discord.Client()
 
-TOKEN = 'NTY0OTEwODQzOTMwNzM4Njg5.XKuwjA.cT9yJiBR2o0Kggb9eVAWSj6LHf0'
-
 @client.event
 async def on_ready():
     print("This bot is ready to go!")
@@ -18,4 +16,4 @@ async def on_message(message):
 
 
 
-        client.run(TOKEN)
+        client.run('NTY0OTEwODQzOTMwNzM4Njg5.XKuwjA.cT9yJiBR2o0Kggb9eVAWSj6LHf0')
