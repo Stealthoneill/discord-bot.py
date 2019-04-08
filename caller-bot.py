@@ -16,7 +16,7 @@ async def on_message(message):
 @client.event
 async def on_ready():
     print("This bot is ready to go!")
-    await client.change_presence(game=discord.Game(name="Making a bot"))
+    await client.change_presence(game=discord.Game(name="Hanging Around"))
 
 
 client.run(TOKEN)
