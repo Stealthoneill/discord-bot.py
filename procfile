@@ -1,1 +1,1 @@
-worker: caller-bot.py
+bot: caller-bot.py
