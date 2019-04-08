@@ -15,8 +15,9 @@ async def on_message(message):
         await client.send_message(message.channel, msg)
 
     if message.content.startswith('!roll'):
-        msg = "{0.author.mention} you rolled for a {}".format(random.randint(1,20)
+        msg = '{0.author.mention} you rolled for a {}'.format(random.randint(1,20)
         await client.send_message(message.channel, msg)
+
 
 @client.event
 async def on_ready():
